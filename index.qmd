@@ -187,7 +187,7 @@ editor:
 
 > Here, Multi-persona is the degree to which an avatar is created
 > differently from the actual person (Appearance, Brand, Style,
-> Personality). (Lee et al., working paper)
+> Personality). (Lee et al., *working paper*)
 
 ![](img/study_1_result.png){fig-align="center"}
 
@@ -198,7 +198,7 @@ editor:
 -   Explored the factors of boosting users' Multi-persona tendency
 
 -   However, still unknown mechanisms remain (i.e. **Multi-persona** →
-    **Attitude**, **Flow**)
+    **Attitude**, **Flow**, **ITU**)
 
 ## Research Questions
 
@@ -216,6 +216,8 @@ editor:
 
 2.  How do multi-persona tendencies affect the way enjoying metaverse?
 
+    -   What is the relationship between multiple personas and attitude to metaverse?
+    
     -   What is the relationship between multiple personas and immersion?
 
     -   What is the relationship between multiple personas and intention to
@@ -521,6 +523,31 @@ $$
 
 #### What we've found are..
 
+<br>
+
+
+
+1.  Do users' multi-persona tendencies differ between metaverses based on
+    anonymity and real name?
+    
+    -   between Real vs. Meta (Real-name based)
+    
+    -   between Real vs. Meta (Anonymous)
+    
+    -   between Meta (Real-name based) vs. Meta (Anonymous)
+
+<br>
+<br>
+
+### **Answer: Indeed!**
+
+## Discussion
+
+<br>
+
+#### 2.  How do multi-persona tendencies affect the way enjoying metaverse?
+<br>
+
 -   **Multi-persona** in `avatar appearance` is associated with a positive
     attitude towards the metaverse and increased likelihood of continued
     usage, regardless of the type of metaverse (Exp 1, 2, and 3).
@@ -541,4 +568,63 @@ $$
 > on attitudes, immersion, and intention to continue using the meta-verse
 > platform!*
 
+    
+
+    
 ## Future Plans
+
+<br>
+
+-   Robustness check
+
+<br>
+
+-   Explore more.. 
+
+    -   e.g.) Multi-perosonal tendency clustering
+    
+    -   Explore any difference in metaverse usage among clusters
+    
+    
+<br>
+
+
+-   Wrapping up the results and find a target journal
+
+
+## Finalize this talk
+
+<br>
+
+### Thanks for your attention
+
+<br>
+
+You can find this presentation here
+
+
+-   [https://changjunlee.com/blogs/posts/7_avatar_custo.html](https://changjunlee.com/blogs/posts/7_avatar_custo.html)
+
+
+<br>
+
+
+### Any questions & suggestions?
+
+<br>
+
+<br>
+
+<h3>Changjun Lee</h3>
+
+<h4>Hanyang University</h4>
+
+<h4>Dep. Media & Social Informatics</h4>
+
+`r fontawesome::fa("home", "black")`
+ [changjunlee.com](https://changjunlee.com/){.uri}
+
+![](img/my_avatar.png){.absolute top="370" left="1400" width="500"}
+<br> 
+
+
