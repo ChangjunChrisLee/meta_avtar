@@ -106,9 +106,10 @@ editor:
 
 ### Metaverse is different from the existing SNS
 
+::: incremental
 <br>
 
--   Unlike existing SNS, the metabus environment has a difference in that
+-   Unlike existing SNS, the metaverse environment has a difference in that
 
     -   `social exchanges` and
 
@@ -118,13 +119,15 @@ editor:
 
 -   In addition, users can exist in various forms:
 
-    -   From what you can see in MV (Appearance, Clothing Style, Brand)
+    -   From what you can see in MV (*Apspearance*, *Clothing* *Style*,
+        *Brand*)
 
-    -   Even to the invisible things (Personality, Characteristics)
+    -   Even to the invisible things (*Personality*, *Characteristics*)
 
 <br>
 
-> All these features become real with **Avatar**.
+-   All these features become real with **AVATAR!**
+:::
 
 ## Research Background
 
@@ -185,9 +188,9 @@ editor:
 
 ### The Effects of Metaverse Users' Social and Psychological Factors on Avatar Customization
 
-> Here, Multi-persona is the degree to which an avatar is created
-> differently from the actual person (Appearance, Brand, Style,
-> Personality). (Lee et al., *working paper*)
+> Here, ***Multi-persona*** is the degree to which [an avatar is created
+> differently from the actual person]{.underline} (*Appearance, Brand,
+> Style, Personality*). (Lee et al., *Under Review*)
 
 ![](img/study_1_result.png){fig-align="center"}
 
@@ -206,22 +209,26 @@ editor:
 
 <br>
 
-1.  Do users' multi-persona tendencies differ between metaverses based on
-    anonymity and real name?
-    -   between Real vs. Meta (Real-name based)
-    -   between Real vs. Meta (Anonymous)
-    -   between Meta (Real-name based) vs. Meta (Anonymous)
+::: incremental
+1.  **Do users' multi-persona tendencies differ between metaverses based on
+    anonymity and real name?**
+    -   between ***Real*** vs. ***Meta*** (*Real-name based*)
+    -   between ***Real*** vs. ***Meta*** (*Anonymous*)
+    -   between ***Meta*** (*Real-name based*) vs. ***Meta*** (*Anonymous*)
 
 <br>
 
-2.  How do multi-persona tendencies affect the way enjoying metaverse?
+2.  **How do multi-persona tendencies affect the way enjoying metaverse?**
 
-    -   What is the relationship between multiple personas and attitude to metaverse?
-    
-    -   What is the relationship between multiple personas and immersion?
+    -   What is the relationship between ***Multi-persona tendency*** and
+        ***Attitude to Metaverse***?
 
-    -   What is the relationship between multiple personas and intention to
-        use?
+    -   What is the relationship between ***Multi-persona tendency*** and
+        ***Immersion***?
+
+    -   What is the relationship between ***Multi-persona tendency*** and
+        ***Intention to use***?
+:::
 
 ## Method
 
@@ -233,16 +240,17 @@ editor:
 ::: {.column width="40%"}
 -   Sample #: `528`
 
--   Questionnaires
+-   **Questionnaires**
 
     -   Avatar customizing
 
-        -   Appearance
-        -   Brand
-        -   Style
-        -   Characteristics
+        -   *Appearance*
+        -   *Brand*
+        -   *Style*
+        -   *Characteristics*
 
-    -   Avatar presence, immersion, intention to use
+    -   Attitude to MV, Immersion,\
+        Intention to Use
 
     -   Socio-deomographic factors
 :::
@@ -336,26 +344,32 @@ editor:
 
 #### Chosen representative experiment: `Real` vs. `Meta(Anonymous)`
 
+. . .
+
 -   **First dimension:** `Apprearance` vs. `Style`
 
-|                 | Appr diff \< *Median(Appr diff)* | Appr diff \> *Median(Appr diff)* |
+|                             | Appr diff \< *Median(*Appr diff*)* | Appr diff \> *Median(*Appr diff*)* |
 |-------------------|:--------------------------:|:--------------------------:|
-| **Style → (-)** |                A                 |                B                 |
-| **Style → (+)** |                C                 |                D                 |
+| **Style → (-)** to 'casual' |                 A                  |                 B                  |
+| **Style → (+)** to 'formal' |                 C                  |                 D                  |
 
 <br>
+
+. . .
 
 -   **Second dimension:** `Apprearance` vs. `Brand/Characters`
 
-|                       | Appr diff \< *Median(Appr diff)* | Appr diff \> *Median(Appr diff)* |
+|                                  | Appr diff \< *Median(*Appr diff*)* | Appr diff \> *Median(*Appr diff*)* |
 |-----------------------|:------------------------:|:------------------------:|
-| **Brand/Chars → (-)** |                E                 |                F                 |
-| **Brand/Chars → (+)** |                G                 |                H                 |
+| **Brand/Chars → (-)** to 'plain' |                 E                  |                 F                  |
+| **Brand/Chars → (+)** to 'lux'   |                 G                  |                 H                  |
 
 <br>
 
+. . .
+
 -   The outcome variables interested in:
-    `Immersion(Flow), Attitude, Intention to Continuous Use`
+    `Immersion, Attitude, Intention to Continuous Use`
 
 ## Research Design
 
@@ -399,9 +413,9 @@ editor:
 
 #### Multiple Linear Regressions
 
-<br>
+. . .
 
--   **Experimental settings**
+-   **Experimental settings:**
 
     -   \(1\) ***Real*** vs. **Meta**(*Anonymous*)
 
@@ -410,6 +424,8 @@ editor:
     -   \(3\) **Meta**(*Real-name based*) vs. **Meta**(*Anonymous*)
 
 <br>
+
+. . .
 
 $$
 Y_i = \beta_1 \Delta Appr_i + \beta_2 \Delta Style_i + \beta_3 \Delta Brand_i + \beta_4 \Delta Chars_i + \alpha + \epsilon_i
@@ -421,8 +437,10 @@ $$
 
 -   $Y_i$ = {Attitude to Metaverse, Flow, Intention to Continuous Use}
 
--   where $i$ and $k$ represent individual and experiment setting,
+-   where $i$ and $j$ represent individual and experiment setting,
     respectively
+
+-   $j = {\{Real, Meta(real), Meta(anony)\}}$
 
 ## Result: Total at a glance
 
@@ -438,6 +456,9 @@ $$
 :::
 
 ::: {.column width="60%"}
+<div>
+
+::: incremental
 -   The more differently a user creates their avatar's Appearance,
 
     -   the greater the probability of a positive attitude towards the
@@ -445,13 +466,16 @@ $$
 
     -   as well as the likelihood of continued usage (0.084, P\<.1).
 
+-   $\Delta Style_i > 0$ means that user $i$ creates their avatar's style
+    towards 'Casual' (from 'Formal')
+
 -   The more a user creates their avatar's style to be casual (compared to
     formal)
 
     -   the lower the probability of continued usage (-0.132, P\<.01).
+:::
 
-> $\Delta Style_i > 0$ means that user $i$ creates their avatar's style
-> towards 'Casual' (from 'Formal')
+</div>
 :::
 :::
 
@@ -465,6 +489,7 @@ $$
 :::
 
 ::: {.column width="60%"}
+::: incremental
 -   The more differently a user creates their avatar's Appearance,
 
     -   the greater the probability of a positive attitude towards the
@@ -473,14 +498,15 @@ $$
     -   as well as the likelihood of immersion into the metaverse (0.100,
         P\<.05) and continued usage (0.150, P\<.1).
 
+-   $\Delta Brand_i > 0$ means that user $i$ creates their avatar's brand
+    towards 'no-brand' (from 'luxurious')
+
 -   The more a user creates their avatar's brand to be no-brand (compared
     to luxurious)
 
     -   the higher the probability of immersion into the metaverse (0.107,
         P\<.05).
-
-> $\Delta Brand_i > 0$ means that user $i$ creates their avatar's brand
-> towards 'no-brand' (from 'luxurious')
+:::
 :::
 :::
 
@@ -494,6 +520,7 @@ $$
 :::
 
 ::: {.column width="60%"}
+::: incremental
 -   The more differently a user creates their avatar's Appearance,
 
     -   the greater the probability of a positive attitude towards the
@@ -505,15 +532,16 @@ $$
 
     -   the higher the probability of continued usage (0.151, P\<.01).
 
+-   $\Delta Chars_i > 0$ means that user $i$ creates their avatar's
+    characters towards 'Sober' (from 'Multi-dimensional')
+
 -   The more a user creates their avatar's characters to be plain/sober
     (compared to multi-dimensional)
 
     -   the lower the probability of a positive attitude towards the
         metaverse (-0.086, P\<.1), as well as the likelihood of immersion
         (-0.120, P\<.05) and continued usage (-0.112, P\<.05).
-
-> $\Delta Chars_i > 0$ means that user $i$ creates their avatar's
-> characters towards 'Sober' (from 'Multi-dimensional')
+:::
 :::
 :::
 
@@ -525,52 +553,55 @@ $$
 
 <br>
 
+1.  **Do users' multi-persona tendencies differ between metaverses based on
+    anonymity and real name?**
 
+    -   between ***Real*** vs. ***Meta*** (*Real-name based*)
 
-1.  Do users' multi-persona tendencies differ between metaverses based on
-    anonymity and real name?
-    
-    -   between Real vs. Meta (Real-name based)
-    
-    -   between Real vs. Meta (Anonymous)
-    
-    -   between Meta (Real-name based) vs. Meta (Anonymous)
+    -   between ***Real*** vs. ***Meta*** (*Anonymous*)
 
-<br>
-<br>
+    -   between ***Meta*** (*Real-name based*) vs. ***Meta*** (*Anonymous*)
 
-### **Answer: Indeed!**
+<br> <br>
+
+. . .
+
+**Answer: `Indeed!`**
 
 ## Discussion
 
 <br>
 
-#### 2.  How do multi-persona tendencies affect the way enjoying metaverse?
+#### 2. How do multi-persona tendencies affect the way enjoying metaverse?
+
 <br>
 
+::: incremental
 -   **Multi-persona** in `avatar appearance` is associated with a positive
-    attitude towards the metaverse and increased likelihood of continued
-    usage, regardless of the type of metaverse (Exp 1, 2, and 3).
+    ***Attitude (+)*** towards the metaverse and increased likelihood of
+    ***Continued usage (+)***, regardless of the type of metaverse (Exp 1,
+    2, and 3).
 
--   **Multi-persona** in `avatar style`: A more casual style is associated
-    with a lower likelihood of continued usage in anonymous metaverses (Exp
-    1).
+-   **Multi-persona** in `avatar style`: A more ***Casual style*** is
+    associated with a lower likelihood of ***Continued usage (-)*** in
+    anonymous metaverses (***Exp 1.*** Real vs. Meta_a).
 
--   **Multi-persona** in `avatar brand`: No-brand is more associated with a
-    high immersion in both real-name based and anonymous metaverse (Exp 2
-    and 3).
+-   **Multi-persona** in `avatar brand`: ***No-brand*** is more associated
+    with a high ***Immersion (+)*** in both real-name based and anonymous
+    metaverse (***Exp 2.*** Real vs. Meta_r, and ***Exp 3.*** Meta_r vs.
+    Meta_a).
 
--   **Multi-persona** in `avatar characteristics`: Multi-dimensional avatar
-    character is associated with a positive attitude and high immersion
-    (Exp 2 and 3).
+-   **Multi-persona** in `avatar characteristics`: ***Multi-dimensional
+    avatar character*** is associated with a positive ***Attitude (+)***
+    and high ***Immersion (+)*** (Exp 2 and 3).
+:::
+
+. . .
 
 > *The tendency to create multi-personal avatars is shown to have an impact
 > on attitudes, immersion, and intention to continue using the meta-verse
 > platform!*
 
-    
-
-    
 ## Future Plans
 
 <br>
@@ -579,18 +610,15 @@ $$
 
 <br>
 
--   Explore more.. 
+-   Explore more..
 
     -   e.g.) Multi-perosonal tendency clustering
-    
+
     -   Explore any difference in metaverse usage among clusters
-    
-    
+
 <br>
 
-
 -   Wrapping up the results and find a target journal
-
 
 ## Finalize this talk
 
@@ -602,12 +630,9 @@ $$
 
 You can find this presentation here
 
-
--   [https://changjunlee.com/blogs/posts/7_avatar_custo.html](https://changjunlee.com/blogs/posts/7_avatar_custo.html)
-
+-   <https://changjunlee.com/blogs/posts/7_avatar_custo.html>
 
 <br>
-
 
 ### Any questions & suggestions?
 
@@ -624,7 +649,4 @@ You can find this presentation here
 `r fontawesome::fa("home", "black")`
  [changjunlee.com](https://changjunlee.com/){.uri}
 
-![](img/my_avatar.png){.absolute top="370" left="1400" width="500"}
-<br> 
-
-
+![](img/my_avatar.png){.absolute top="370" left="1400" width="500"} <br>
