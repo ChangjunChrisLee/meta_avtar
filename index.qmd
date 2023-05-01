@@ -2,6 +2,7 @@
 # title: "ML101"
 # subtitle: "데이터 예측모델과 기계학습의 응용"
 # author: "Changjun Lee"
+bibliography: bib/cj_refer.bib
 format: 
   revealjs:
     theme: ["theme/q-theme.scss"]
@@ -182,7 +183,7 @@ editor:
     -   Ability to navigate various social situations
     -   Increased resilience and coping strategies## Research Background
 
-## Research Background
+## Literature Review
 
 <br>
 
@@ -193,6 +194,40 @@ editor:
 > Style, Personality*). (Lee et al., *Under Review*)
 
 ![](img/study_1_result.png){fig-align="center"}
+
+## Literature Review
+
+<br>
+
+### Avatar similarity as a way to bridge the gap between the *real world* and the *virtual world*
+
+::: incremental
+-   People tend to identify more with avatars that physically resemble
+    them, which increases their sense of presence and involvement in the
+    virtual team task [@bailenson2008self].
+
+-   "Member-avatar similarity" can lead to higher team performance by
+    increasing team members' involvement in the task [@scaife2001informing
+    @witmer1998measuring].
+
+-   A process of **`self-identification`** is central here: Stronger
+    identification with avatars increases the feeling of being present in
+    the group and involved in the group task [@bailenson2008self].
+:::
+
+## Research Gap..
+
+<br>
+
+### What happens when it's not a group task, but simply immersing oneself in the virtual world?
+
+::: incremental
+-   Does a stronger **self-identification** with one's avatar (**Avatar
+    similarity**) lead to better **immersion**, as it does in group tasks?
+
+-   Or is better immersion achieved through a stronger **tendency towards
+    multi-personas (avatar dis-similarity)**?
+:::
 
 ## Problem Description
 
@@ -649,4 +684,8 @@ You can find this presentation here
 `r fontawesome::fa("home", "black")`
  [changjunlee.com](https://changjunlee.com/){.uri}
 
-![](img/my_avatar.png){.absolute top="370" left="1400" width="500"} <br>
+![](img/my_avatar.png){.absolute top="370" left="1400" width="500"}
+
+<br>
+
+## References
